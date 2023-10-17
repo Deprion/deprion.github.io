@@ -23,6 +23,9 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish -c Release -o release --nologo
 
+    - name: Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
+
     - name: Uploading files to gh-pages branch
       uses: JamesIves/github-pages-deploy-action@v4
       with:
