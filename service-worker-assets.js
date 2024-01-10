@@ -33,11 +33,11 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-hTZKxAAm1uS3tS\/8HIm7Mlp3dnGM3spHX9V04cyc4aw=",
+      "hash": "sha256-4YfeOW7bLzeSUStjee+LX98q7lS7kEXYPO47EP\/dvnY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-wAmP13hjW1uihTu4yeViW20qm1ARy2FhTpOi7DBgFzk=",
+      "hash": "sha256-rTCAKev5Qrsu2oZ4ixcFNSiL81Z4WpGP4U\/YeQkAoJ8=",
       "url": "_framework\/GitHubPages.dll"
     },
     {
@@ -213,7 +213,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-Fnmvu8J3GofnFLAFrNDf6SQVMPYkBgdDeHGMnL24qFc=",
+      "hash": "sha256-MTduyuWdMHvDx7Lc0qmOubQk7bDupCBFPrYL4P3ameE=",
       "url": "index.html"
     },
     {
@@ -221,13 +221,21 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-4Yh4OTT5TEAPNyXEzOG+n5l2HPK294WFItz4SIelj88=",
-      "url": "sample-data\/weather.json"
+      "hash": "sha256-vSNH8nSfq4bRbZI2KEyFK1YKgVvSGkT1gLTcMLTnrJQ=",
+      "url": "videos\/Brain Test 2.mp4"
     },
     {
-      "hash": "sha256-vSNH8nSfq4bRbZI2KEyFK1YKgVvSGkT1gLTcMLTnrJQ=",
-      "url": "videos\/BrainTest2.mp4"
+      "hash": "sha256-bUoSpyuNck+2\/EITvptutsQxBDsIr7jzEROBwkfPREU=",
+      "url": "videos\/Corsair.mp4"
+    },
+    {
+      "hash": "sha256-Y4mrTHRka+2\/p8htHLz4yoQgyE0OBzjJ9e6xYLNZjNQ=",
+      "url": "videos\/Lost in The Dark.mp4"
+    },
+    {
+      "hash": "sha256-7MOAXwqYfTfCim4Lj2F3sUc7hfgcO2U0P8whPtWdED8=",
+      "url": "videos\/Tree Simulation.mp4"
     }
   ],
-  "version": "Xz\/J1GvY"
+  "version": "cbd3i9UZ"
 };
