@@ -1,0 +1,18 @@
+﻿@page "/game"
+
+<PageTitle>Game</PageTitle>
+
+<h1>Game</h1>
+
+<p role="status">Amount: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">*Click*</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

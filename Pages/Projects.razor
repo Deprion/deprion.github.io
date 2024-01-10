@@ -1,0 +1,48 @@
+﻿@page "/projects"
+@inject HttpClient Http
+
+<PageTitle>Projects</PageTitle>
+
+<p>List of some projects</p>
+
+@foreach(Project pr in projects)
+{
+    <h1>@pr.Title</h1>
+
+    <p>@pr.Description</p>
+
+    if (pr.isShown)
+    {
+        <p>
+            <button class="btn-primary" @onclick="@(() => Toggle(pr))">Minimize</button>
+        </p>
+
+        <video controls="controls" width="576">
+            <source src="/videos/@(pr.Title).mp4" type="video/mp4" />
+        </video>
+    }
+    else
+    {
+        <p>
+            <button class="btn-primary" @onclick="@(() => Toggle(pr))">Expand</button>
+        </p>
+    }
+}
+
+@code 
+{
+    private Project[] projects = new Project[]
+    {
+        new Project("Brain Test 2"),
+        new Project("Happy Miner"),
+        new Project("CatBalls Zen"),
+        new Project("Lost in The Dark"),
+        new Project("Corsair"),
+        new Project("Tree Simulation")
+    };
+
+    private void Toggle(Project pr)
+    {
+        pr.isShown = !pr.isShown;
+    }
+ } 
