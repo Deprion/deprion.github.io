@@ -17,10 +17,7 @@
             <button class="btn-primary" @onclick="@(() => Toggle(pr))">Minimize</button>
         </p>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=cFCXi8rUePo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        /*<video controls="controls" width="25%">
-            <source src="/videos/@(pr.Title).mp4" type="video/mp4" />
-        </video>*/
+        <iframe width="560" height="315" src=@(pr.Link) frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     }
     else
     {
@@ -34,15 +31,13 @@
 {
     private Project[] projects = new Project[]
     {
-        new Project("Brain Test 2"),
-        new Project("Happy Miner"),
-        new Project("CatBalls Zen"),
-        new Project("Lost in The Dark"),
-        new Project("Corsair"),
-        new Project("Tree Simulation")
+        new Project("Кто?", "https://youtube.com/embed/JITwp1C5OeM"),
+        new Project("Хитрые рассказы", "https://youtube.com/embed/78_2SV0u7nU"),
+        new Project("Happy Miner", "https://youtube.com/embed/h7ggMujZpZ4"),
+        new Project("Lost in The Dark", "https://youtube.com/embed/kCFAZzRjh7I"),
+        new Project("Corsair", "https://youtube.com/embed/jh6vyWVNXks"),
+        new Project("Tree Simulation", "https://youtube.com/embed/uZGol1-xJac")
     };
-
-    // https://youtube.com/shorts/h7ggMujZpZ4?feature=share
 
     private void Toggle(Project pr)
     {
