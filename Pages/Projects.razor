@@ -17,9 +17,10 @@
             <button class="btn-primary" @onclick="@(() => Toggle(pr))">Minimize</button>
         </p>
 
-        <video controls="controls" width="25%">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=cFCXi8rUePo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        /*<video controls="controls" width="25%">
             <source src="/videos/@(pr.Title).mp4" type="video/mp4" />
-        </video>
+        </video>*/
     }
     else
     {
@@ -40,6 +41,8 @@
         new Project("Corsair"),
         new Project("Tree Simulation")
     };
+
+    // https://youtube.com/shorts/h7ggMujZpZ4?feature=share
 
     private void Toggle(Project pr)
     {
